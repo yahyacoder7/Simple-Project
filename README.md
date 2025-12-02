@@ -17,16 +17,16 @@ The same data can be retrieved later using GET.
 - HTML / CSS / Client-side JS
 
 ## 📁 Project Structure
-/simple-project </br>
-├── public/</br>
-│ ├── index.html</br>
-│ └── js/</br>
-│ └── app.js</br>
-├── src/</br>
-│ ├── server.js</br>
-│ └── cpu-data.json</br>
-├── package.json</br>
-└── .gitignore</br>
+/simple-project <br>
+├── public/<br>
+│ ├── index.html<br>
+│ └── js/<br>
+│ └── app.js<br>
+├── src/<br>
+│ ├── server.js<br>
+│ └── cpu-data.json<br>
+├── package.json<br>
+└── .gitignore<br>
 
 ## 🚀 How to Run the Project
 
