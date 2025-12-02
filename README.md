@@ -17,12 +17,12 @@ The same data can be retrieved later using GET.
 - HTML / CSS / Client-side JS
 
 ## 📁 Project Structure
-/simple-project
-├── public/
+- /simple-project
+- ├── public/
 │ ├── index.html
 │ └── js/
 │ └── app.js
-├── src/
+- ├── src/
 │ ├── server.js
 │ └── cpu-data.json
 ├── package.json
