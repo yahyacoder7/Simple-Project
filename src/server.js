@@ -16,7 +16,7 @@ app.post('/', async (req, res) => {
     try {
         const reqData = req.body
 
-        let readFile = await fs.readFile('cpu-data.json', 'utf-8');
+        let readFile = await fs.readFile('src/cpu-data.json', 'utf-8');
 
         let cpuData = JSON.parse(readFile);
 
@@ -41,7 +41,7 @@ app.post('/', async (req, res) => {
 
         cpuData.push(structuredCPU);
 
-        await fs.writeFile('cpu-data.json', JSON.stringify(cpuData, null, 2));
+        await fs.writeFile('src/cpu-data.json', JSON.stringify(cpuData, null, 2));
 
         console.log("✅ Data saved successfully!");
 
