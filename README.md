@@ -33,5 +33,5 @@ The same data can be retrieved later using GET.
 1. Install Packages:
 npm install
 2. Start the Server:
-node.js src/server.js
+node src/server.js
 3. Open your browser and go to: http://localhost:3000
